@@ -1,0 +1,1 @@
+started on 10th of july you should be doing javascript without getting stucking on the humps -remember those humps are commom and they will always come.so dont worry you will definitely overcome those humps !.
