@@ -33,18 +33,43 @@
 
 // to master js master objects ,browseer web events or browser events 
 
-const heros =["shiva","aishu","pandu"] // array
-console.log(heros);
+// const heros =["shiva","aishu","pandu"] // array
+// console.log(heros);
 
 
 
-let myObj ={
-    name : "shiva",
-    age : 18,           // curly braces lo unnadhi motham object antaru  
-}
-console.log(myObj);
+// let myObj ={
+//     name : "shiva",
+//     age : 18,           // curly braces lo unnadhi motham object antaru  
+// }
+// console.log(myObj);
 
-const myFunction = function(){
-    console.log("hello world ");
+// const myFunction = function(){
+//     console.log("hello world ");
     
-}
+// }
+
+// const name ="shiva"
+// const repoCount= 50
+// console.log(`hello my name is ${name} and my repocount is ${repoCount}`);
+
+const GameName = new String('shiva praneeth')
+// console.log(GameName);  // [String: 'shiva praneeth']
+// console.log(GameName.__proto__);  // {}
+// console.log(GameName.charAt(2));  // i
+// console.log(GameName.indexOf('p')); // 6
+
+const NewString = GameName.substring(0,4)
+console.log(NewString); // shiv  // remember here the second enterred number 4 will be ignored and everything befoer 4 is printed out 
+
+const newStringOne ="     shiva      "
+console.log(newStringOne.trim());
+const url ="https://hitesh.com/hitesh%20choudary"
+console.log(url.replace('%20','-'));
+console.log(url.includes('hi'));
+
+const a = "café";
+const b = "café";
+
+console.log(a === b);
+ 
